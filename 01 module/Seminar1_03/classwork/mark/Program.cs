@@ -6,7 +6,11 @@ namespace mark
 	{
 		static void Main(string[] args)
 		{
-			int x = int.Parse(Console.ReadLine());
+			uint x;
+			do
+			{
+				Console.Write("Enter a mark: ");
+			} while (!uint.TryParse(Console.ReadLine(), out x) || x < 1 || x > 10);
 			switch (x)
 			{
 				case 1:

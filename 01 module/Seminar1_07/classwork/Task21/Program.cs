@@ -21,7 +21,9 @@ namespace Task21
 			{
 				for (int j = 0; j < a.GetLength(1); j++)
 				{
-					Console.Write($"{a[i, j]}\t");
+					if (a[i, j] != int.MinValue)
+						Console.Write($"{a[i, j]}");
+					Console.Write('\t');
 				}
 				Console.WriteLine();
 			}

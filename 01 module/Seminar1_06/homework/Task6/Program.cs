@@ -29,7 +29,7 @@ namespace Task6
 			Array.Resize(ref array, length);
 			return true;
 		}
-		static int ProcessArray(ref int[] array)
+		static int ProcessArray(int[] array)
 		{
 			int i;
 			for (i = 0; ShrinkArray(ref array); i++)
@@ -53,7 +53,7 @@ namespace Task6
 			for (int i = 0; i < n; i++)
 				array[i] = rnd.Next(-10, 11);
 			PrintArray("Source array: ", array);
-			Console.WriteLine($"Shrink count: {ProcessArray(ref array)}");
+			Console.WriteLine($"Shrink count: {ProcessArray(array)}");
 		}
 	}
 }

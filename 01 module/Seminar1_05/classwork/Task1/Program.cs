@@ -18,7 +18,7 @@ namespace Task1
                 Console.Write(a[i] + " ");
             Console.WriteLine();
         }
-        static void Solve(ref int[] a, ref int[] b, int len1)
+        static void Solve(int[] a, int[] b, int len1)
         {
             int j = len1;
             for (int i = 0; i < b.Length; i++)
@@ -42,7 +42,7 @@ namespace Task1
             PrintArray(a);
             Console.Write("B: ");
             PrintArray(b);
-            Solve(ref a, ref b, len1);
+            Solve(a, b, len1);
             Console.Write("Modified A: ");
             PrintArray(a);
         }

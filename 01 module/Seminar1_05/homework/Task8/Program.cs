@@ -11,7 +11,7 @@ namespace Task8
 				array[i] = (i * (i + 1) / 2) % n;
 			return array;
 		}
-		static void Norm(ref double[] array)
+		static void Norm(double[] array)
 		{
 			double max = 0.0;
 			foreach (double val in array)
@@ -32,7 +32,7 @@ namespace Task8
 			double[] array = GetArray(n);
 			Console.Write("Old array: ");
 			PrintArray(array);
-			Norm(ref array);
+			Norm(array);
 			Console.Write("\nNew array: ");
 			PrintArray(array);
 		}

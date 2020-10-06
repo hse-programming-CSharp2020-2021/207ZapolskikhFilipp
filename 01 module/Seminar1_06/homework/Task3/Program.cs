@@ -12,7 +12,7 @@ namespace Task3
 				array[i] = -array[i - 1] / (i * 2.0) / (i * 2.0 + 1.0);
 			return array;
 		}
-		static double GetSinX(double x, ref double[] array)
+		static double GetSinX(double x, double[] array)
 		{
 			double pow = x;
 			double sum = 0.0;
@@ -35,7 +35,7 @@ namespace Task3
 				double x;
 				do Console.Write($"Enter X: ");
 				while (!double.TryParse(Console.ReadLine(), out x));
-				Console.WriteLine($"My sin(x): {GetSinX(x, ref array)}\tMath.Sin(x): {Math.Sin(x)}");
+				Console.WriteLine($"My sin(x): {GetSinX(x, array)}\tMath.Sin(x): {Math.Sin(x)}");
 			}
 		}
 	}

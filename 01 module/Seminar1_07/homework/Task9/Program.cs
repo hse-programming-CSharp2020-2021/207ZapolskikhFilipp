@@ -5,7 +5,7 @@ namespace Task9
 	class Program
 	{
 		//0, 1, 2, 3, 4, 5, 6 -> 0, 2, 4, 6, 5, 3, 1
-		static void ArrayHill(ref double[] a)
+		static void ArrayHill(double[] a)
 		{
 			double[] a2 = (double[])a.Clone();
 			Array.Sort(a2);
@@ -38,7 +38,7 @@ namespace Task9
 			while (!int.TryParse(Console.ReadLine(), out n) || n <= 0);
 			double[] array = GetArray(n);
 			PrintArray(array);
-			ArrayHill(ref array);
+			ArrayHill(array);
 			PrintArray(array);
 		}
 	}

@@ -8,7 +8,7 @@ namespace Task5
 		{
 			int newLength = 0;
 			for (int i = 0; i < array.Length; i++)
-				if (array[i] % 2 == 1)
+				if (Math.Abs(array[i]) % 2 == 1)
 					array[newLength++] = array[i];
 			if (newLength > 0)
 				Array.Resize(ref array, newLength);

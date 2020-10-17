@@ -51,13 +51,13 @@ namespace Task3
 				int[] array = new int[b - a + 1];
 				for (int i = 0; i < array.Length; i++)
 					array[i] = a + i;
-				array = Array.FindAll(array, x => CountSum(x) == CountDigits(x));
-				if (array.Length == 0)
-					array = Array.FindAll(array, x => CountSum(x) == 2 * CountDigits(x));
-				if (array.Length > 0)
+				int[] array2 = Array.FindAll(array, x => CountSum(x) == CountDigits(x));
+				if (array2.Length == 0)
+					array2 = Array.FindAll(array, x => CountSum(x) == 2 * CountDigits(x));
+				if (array2.Length > 0)
 				{
 					Console.Write("Array: ");
-					Array.ForEach(array, x => Console.Write($"{x} "));
+					Array.ForEach(array2, x => Console.Write($"{x} "));
 					Console.WriteLine();
 				}
 				else

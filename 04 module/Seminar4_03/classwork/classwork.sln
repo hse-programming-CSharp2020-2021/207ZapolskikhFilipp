@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Matrix2", "Matrix2\Matrix2.csproj", "{838802E5-1683-4CAB-9717-685809A75ED7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sandwich", "Sandwich\Sandwich.csproj", "{8AB09B2A-C6BF-4F21-8BAB-BC63E6792EF6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "State", "State\State.csproj", "{1B4D1D59-5CED-4C7C-8770-723151A2860B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{838802E5-1683-4CAB-9717-685809A75ED7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{838802E5-1683-4CAB-9717-685809A75ED7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{838802E5-1683-4CAB-9717-685809A75ED7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{838802E5-1683-4CAB-9717-685809A75ED7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8AB09B2A-C6BF-4F21-8BAB-BC63E6792EF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8AB09B2A-C6BF-4F21-8BAB-BC63E6792EF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8AB09B2A-C6BF-4F21-8BAB-BC63E6792EF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8AB09B2A-C6BF-4F21-8BAB-BC63E6792EF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B4D1D59-5CED-4C7C-8770-723151A2860B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B4D1D59-5CED-4C7C-8770-723151A2860B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B4D1D59-5CED-4C7C-8770-723151A2860B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B4D1D59-5CED-4C7C-8770-723151A2860B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2B8EA443-B32F-4AB1-B917-78FAA02DC386}
+	EndGlobalSection
+EndGlobal

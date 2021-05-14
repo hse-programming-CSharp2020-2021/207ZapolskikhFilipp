@@ -3,22 +3,22 @@
 	class SaleFactory : IEntityFactory<Sale>
 	{
 		long id;
-		Buyer buyer;
-		Shop shop;
-		Good good;
+		long buyerId;
+		long shopId;
+		long goodId;
 		int goodCount;
-		decimal goodPrice;
+		decimal goodCost;
 
-		public SaleFactory(long id, Buyer buyer, Shop shop, Good good, int goodCount, decimal goodPrice)
+		public SaleFactory(long id, long buyerId, long shopId, long goodId, int goodCount, decimal goodCost)
 		{
 			this.id = id;
-			this.buyer = buyer;
-			this.shop = shop;
-			this.good = good;
+			this.buyerId = buyerId;
+			this.shopId = shopId;
+			this.goodId = goodId;
 			this.goodCount = goodCount;
-			this.goodPrice = goodPrice;
+			this.goodCost = goodCost;
 		}
 
-		public Sale Instance => new Sale(id, buyer, shop, good, goodCount, goodPrice);
+		public Sale Instance => new Sale(id, buyerId, shopId, goodId, goodCount, goodCost);
 	}
 }

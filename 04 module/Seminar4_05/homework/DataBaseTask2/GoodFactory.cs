@@ -2,7 +2,7 @@
 {
     class GoodFactory : IEntityFactory<Good>
     {
-        static long _id = 0;
+        static long _id = 1;
         string name;
         long shopId;
         string description;

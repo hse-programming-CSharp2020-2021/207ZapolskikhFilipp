@@ -1,14 +1,17 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Text.Encodings.Web;
 using System.Text.Json;
+using System.Text.Unicode;
 
 namespace DataBaseTask2
 {
     class DataBase
     {
         readonly IDictionary<Type, object> _tables = new Dictionary<Type, object>();
-		readonly JsonSerializerOptions serializerOptions = new JsonSerializerOptions { WriteIndented = true };
+		readonly JsonSerializerOptions serializerOptions
+            = new JsonSerializerOptions { WriteIndented = true, Encoder = JavaScriptEncoder.Create(UnicodeRanges.All) };
 
         public string Name { get; }
 

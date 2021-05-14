@@ -3,20 +3,20 @@
 	class Sale : IEntity
 	{
 		public long Id { get; }
-		public Buyer Buyer { get; }
-		public Shop Shop { get; }
-		public Good Good { get; }
+		public long BuyerId { get; }
+		public long ShopId { get; }
+		public long GoodId { get; }
 		public int GoodCount { get; }
-		public decimal GoodPrice { get; }
+		public decimal GoodCost { get; }
 
-		public Sale(long id, Buyer buyer, Shop shop, Good good, int goodCount, decimal goodPrice)
+		public Sale(long id, long buyerId, long shopId, long goodId, int goodCount, decimal goodCost)
 		{
 			Id = id;
-			Buyer = buyer;
-			Shop = shop;
-			Good = good;
+			BuyerId = buyerId;
+			ShopId = shopId;
+			GoodId = goodId;
 			GoodCount = goodCount;
-			GoodPrice = goodPrice;
+			GoodCost = goodCost;
 		}
 	}
 }

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31229.75
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqIntegers", "LinqIntegers\LinqIntegers.csproj", "{1BDE6E1B-C698-4CC1-858A-44F00250876B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zoo", "Zoo\Zoo.csproj", "{444FF625-7B23-4C45-BBB4-791B229AC3DD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1BDE6E1B-C698-4CC1-858A-44F00250876B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BDE6E1B-C698-4CC1-858A-44F00250876B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BDE6E1B-C698-4CC1-858A-44F00250876B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BDE6E1B-C698-4CC1-858A-44F00250876B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{444FF625-7B23-4C45-BBB4-791B229AC3DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{444FF625-7B23-4C45-BBB4-791B229AC3DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{444FF625-7B23-4C45-BBB4-791B229AC3DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{444FF625-7B23-4C45-BBB4-791B229AC3DD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ACE86861-933D-49BF-AA94-69C00F5274BB}
+	EndGlobalSection
+EndGlobal
